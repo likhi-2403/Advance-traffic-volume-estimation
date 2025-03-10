@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            background: url('https://media.evo.co.uk/image/private/s--45TGlvnh--/v1613998967/evo/2021/02/Jag_XF_21MY_Driving_270121_5421.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <h1>Prediction Result</h1>
+        <h2>Predicted Traffic Volume: {{ prediction_text }}</h2>
+
+        <br><br>
+        <a href="{{ url_for('home') }}">Go Back</a>
+    </div>
+</body>
+</html>
